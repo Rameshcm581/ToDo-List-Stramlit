@@ -1,6 +1,3 @@
-Here's a `README.md` file template you can use for your Streamlit To-Do List application. This file will help others understand the purpose of your project, how to set it up, and how to use it.
-
-```markdown
 # To-Do List Application
 
 This is a simple To-Do List application built using Streamlit and SQLite. The app allows users to add, update, and delete tasks. It uses SQLite for storing tasks and their statuses, and Streamlit for creating an interactive web interface.
