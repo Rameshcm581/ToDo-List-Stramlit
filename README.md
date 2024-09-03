@@ -20,29 +20,30 @@ This is a simple To-Do List application built using Streamlit and SQLite. The ap
 
 ## Installation
 
-1. **Clone the Repository:**
+1. **Clone the Repository**
 
    ```bash
-   git clone https://github.com/Rameshcm581/streamlit-todo-list.git
-   cd streamlit-todo-list
+   git clone https://github.com/Rameshcm581/Youtube-Streamlit.git
+   cd Youtube-Streamlit
    ```
 
-2. **Install Required Packages:**
-
-   You can install the required packages using pip. It is recommended to use a virtual environment.
+2. **Create a Virtual Environment (optional but recommended)**
 
    ```bash
-   pip install streamlit
+   python -m venv venv
+   source venv/bin/activate  # On Windows use `venv\Scripts\activate`
    ```
 
-## Usage
-
-1. **Run the Application:**
-
-   Navigate to the project directory and run the Streamlit app:
+3. **Install Required Packages**
 
    ```bash
-   streamlit run streamlit_todo_list.py
+   pip install -r requirements.txt
+   ```
+
+4. **Run the Streamlit App**
+
+   ```bash
+   streamlit run app.py
    ```
 
 2. **Interact with the Application:**
@@ -65,6 +66,10 @@ This is a simple To-Do List application built using Streamlit and SQLite. The ap
 ## Troubleshooting
 
 - **Page Not Refreshing:** Ensure you are using a compatible version of Streamlit. If `st.experimental_rerun()` is not working, the app should still update based on state changes.
+
+  ## Example Screenshot
+
+![Screenshot](Screenshot.png)
 
 ## Contributing
 
